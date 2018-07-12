@@ -2,7 +2,7 @@
 ## median bias reduction for Cox regression      ####
 #####################################################
 
-source("coxRegressionMedianBR.R")
+source("coxphkss.R")
 
 dataCens <- data.frame(time=c(6,7,1,2,3,4,5), 
                        status=c(1,1,1,0,1,1,0), 
